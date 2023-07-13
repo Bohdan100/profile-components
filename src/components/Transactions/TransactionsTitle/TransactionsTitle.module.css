@@ -1,0 +1,17 @@
+.tableTitle {
+  width: calc(100% / 3);
+  padding: 10px;
+  height: 40px;
+  background-color: var(--thirdBg);
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.17;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--forthText);
+
+  &:not(:last-child) {
+    border-right: 1px solid var(--firstBorder);
+  }
+}

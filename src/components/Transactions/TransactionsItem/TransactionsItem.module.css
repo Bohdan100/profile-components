@@ -1,0 +1,26 @@
+.tabelRow:nth-child(2n) {
+  background-color: var(--forthBg);
+}
+
+.tabelCell {
+  height: 40px;
+  padding: 8px 10px;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.17;
+  text-align: center;
+  text-transform: capitalize;
+  text-shadow: var(--third-shadow);
+  border-top: 1px solid var(--firstBorder);
+
+  &:not(:last-child) {
+    border-right: 1px solid var(--firstBorder);
+  }
+
+  &:hover,
+  &:focus {
+    background-color: var(--fifthBg);
+    text-shadow: var(--second-shadow);
+  }
+}

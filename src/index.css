@@ -1,0 +1,61 @@
+:root {
+  --primaryText: #7b5858;
+  --secondaryText: #212121;
+  --thirdText: #010101;
+  --forthText: #ffffff;
+
+  --text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+  --firstBg: #d5e3d1;
+  --secondBg: #ffffff;
+  --thirdBg: #1f7837;
+  --forthBg: #36c25b;
+  --fifthBg: #acf967;
+
+  --first-shadow: rgb(0 0 0 / 20%) 0px 3px 3px -2px,
+    rgb(0 0 0 / 14%) 0px 3px 4px 0px, rgb(0 0 0 / 12%) 0px 1px 8px 0px;
+  --second-shadow: 9px 15px 25px rgba(0, 0, 0, 0.5);
+  --third-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+  --forth-shadow: 2px 3px 14px 2px rgba(0, 0, 0, 0.41);
+
+  --statusFirstBg: #f44336;
+  --statusSecondBg: #4caf50;
+
+  --firstBorder: #079aab;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Ubuntu',
+    'Cantarell', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: #8cba98;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

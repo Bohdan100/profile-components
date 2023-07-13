@@ -1,0 +1,28 @@
+.statistics {
+  padding: 30px;
+  border-radius: 30px;
+  background-color: var(--firstBg);
+  margin-bottom: 50px;
+}
+
+.title {
+  margin-bottom: 15px;
+  font-size: 30px;
+  line-height: 1.17;
+  font-weight: 700;
+  color: var(--primaryText);
+  text-shadow: var(--third-shadow);
+  text-align: center;
+}
+
+.statList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  list-style: none;
+
+  @media screen and (min-width: 768px) {
+    gap: 10px;
+  }
+}

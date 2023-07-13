@@ -1,0 +1,26 @@
+.item {
+  width: 50px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+
+  box-shadow: var(--first-shadow);
+  transition: all 0.3s ease-in-out;
+
+  &:hover,
+  &:focus {
+    transform: scale(1.05);
+    box-shadow: 9px 15px 25px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.label,
+.percentage {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.17;
+  color: var(--secondaryText);
+  text-shadow: var(--third-shadow);
+}

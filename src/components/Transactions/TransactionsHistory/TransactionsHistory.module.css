@@ -1,0 +1,8 @@
+.transactionHistory {
+  margin-bottom: 50px;
+  background-color: var(--firstBg);
+  box-shadow: var(--forth-shadow);
+
+  border-collapse: collapse;
+  border-spacing: 0;
+}

@@ -1,0 +1,25 @@
+.stats {
+  display: flex;
+  padding: 0 30px;
+  justify-content: space-between;
+}
+
+.stats li {
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  padding-top: 15px;
+
+  font-size: 14px;
+  line-height: 1.3;
+  color: var(--primaryText);
+}
+.quantity {
+  padding-bottom: 15px;
+  font-size: 14px;
+  color: var(--secondaryText);
+  font-weight: 700;
+}

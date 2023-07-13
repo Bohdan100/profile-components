@@ -1,0 +1,20 @@
+.profile {
+  margin-top: 4%;
+  margin-bottom: 40px;
+
+  width: 285px;
+  padding: 20px 0;
+  text-align: center;
+
+  box-shadow: var(--first-shadow);
+
+  border-radius: 30px;
+  background-color: var(--firstBg);
+  transition: all 0.3s ease-in-out;
+
+  &:hover,
+  &:focus {
+    transform: scale(1.05);
+    box-shadow: var(--second-shadow);
+  }
+}

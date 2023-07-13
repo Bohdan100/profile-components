@@ -1,0 +1,35 @@
+.friends {
+  margin-bottom: 50px;
+  padding: 20px 10px 30px;
+  border-radius: 30px;
+  background-color: var(--firstBg);
+
+  @media screen and (min-width: 768px) {
+    padding: 20px 20px 30px;
+  }
+}
+
+.title {
+  margin-bottom: 15px;
+  font-size: 32px;
+  line-height: 1.17;
+  font-weight: 700;
+  color: var(--primaryText);
+  text-shadow: var(--third-shadow);
+  text-align: center;
+}
+
+.friendsList {
+  padding: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  column-gap: 20px;
+  gap: 20px;
+
+  @media screen and (min-width: 328px) {
+    column-gap: 10px;
+    row-gap: 25px;
+  }
+}
